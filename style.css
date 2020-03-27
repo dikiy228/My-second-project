@@ -750,29 +750,26 @@ button {
 }
 
 .maps__dotted {
-    display: flex;
     margin: auto 34px;
-    padding-bottom: 57px;
+    padding-top: 40px;
+    text-align: center;
+    
+    width: 100%;
+    height: 550px;
+    background: url(images/maps/dotted.jpg) no-repeat center;
+}
+
+.footer__line {
+    margin-top: 57px;
     border-bottom: 1px solid #e3e7ec;
-    position: relative;
-    justify-content: center;
 }
 
 .maps__address {
-    position: absolute;
-    display: grid;
-    padding-top: 40px;
-}
-
-.logo__photo {
-    text-align: center;
-}
-
-.address__text {
-    position: absolute;
-    text-align: center;
-    top: 90px;
-    left: 65px;
+    display: table;
+    margin: 0 auto;
+    width: 279px;
+    height: 292px;
+    background: url(images/maps/address.png) no-repeat center;
 }
 
 .address__title {
@@ -789,6 +786,11 @@ button {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 700;
+}
+
+.address__text {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .address__text a {
@@ -886,6 +888,9 @@ button {
     main {
         width: 1200px;
     }
-   
+    
+    .footer {  
+        width: 1200px;
+    }
 
 }
